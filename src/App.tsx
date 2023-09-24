@@ -8,9 +8,11 @@ function App() {
   const [gifs, setGifs] = useState<Gif[] | null>(null)
   return (
     <>
-      <SearchBar setGifs={setGifs} />
+      <div className="container">
+        <SearchBar setGifs={setGifs} />
 
-      <GifGrid gifs={gifs} />
+        <GifGrid gifs={gifs} />
+      </div>
     </>
   )
 }

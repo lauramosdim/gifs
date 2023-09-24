@@ -40,9 +40,9 @@ const SearchBar = ({ setGifs }: SearchBarProps) => {
                 className="searcher-input"
               />
               {/* <button>Search</button> */}
-              <button className="search-button" id="search-bttn">
+              {/* <button className="search-button" id="search-bttn">
                 Search
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
